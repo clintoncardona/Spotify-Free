@@ -1,0 +1,902 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.container {
+  position: relative;
+  left: 0;
+  top: 0;
+}
+
+.further {
+  position: absolute;
+  display: inline-block;
+  top: 18px;
+  left: 22px;
+}
+
+.right-column {
+  background: rgb(18, 18, 18);
+  width: 22em;
+  height: 8em;
+  border-radius: 7px;
+  position: absolute;
+  border-radius: 7px;
+  top: 45px;
+  left: 8px;
+  z-index: 1;
+}
+
+.home-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 22px;
+  left: 23px;
+}
+.search-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 70px;
+  left: 19px;
+}
+
+/*?Tu biblioteca*/
+
+.left-column {
+  display: flex;
+  background: rgb(18, 18, 18);
+  width: 22em;
+  height: 474px;
+  border-radius: 7px;
+  position: absolute;
+  top: 182px;
+  left: 8px;
+  z-index: 1;
+}
+
+.Compress-Your-Library {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 15px;
+  left: 18px;
+}
+.create-playlist {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 15px;
+  left: 265px;
+}
+.Playlist-Álbumes-Artistas {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 65px;
+  left: 8px;
+}
+.search-library {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 120px;
+  left: 18px;
+}
+.recent {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 115px;
+  left: 235px;
+}
+
+.corazon-2 {
+  position: absolute;
+  z-index: -1;
+  background-color: rgb(30, 31, 31);
+  top: 155px;
+  left: 7px;
+  width: 96%;
+  height: 4em;
+  border-radius: 7px;
+}
+
+.corazon-2:hover {
+  cursor: pointer;
+}
+
+.i-like-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 7px;
+  left: 7px;
+}
+.likes {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+  top: 11px;
+  left: 65px;
+  font-size: 15px;
+  font-weight: 600;
+  color: rgb(25, 215, 93);
+}
+
+.fixed {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 32px;
+  left: 65px;
+}
+.playlist-songs {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+  top: 30px;
+  left: -7px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+.malibu-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 227px;
+  left: 13px;
+}
+.malibu {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+  top: 232px;
+  left: 75px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.feid-album {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 256px;
+  left: 75px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #A9A9A9;
+}
+.archangel-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 290px;
+  left: 13px;
+}
+.archangel {
+  position: relative;
+  display: inline-block;
+  z-index: -1;
+  top: 295px;
+  left: 23px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.artist {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 318px;
+  left: 75px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #A9A9A9;
+}
+.jesus-adrian-romero-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 353px;
+  left: 13px;
+}
+.Jesus-Adrian-Romero {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 358px;
+  left: 77px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.john-wayne {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 382px;
+  left: 77px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #A9A9A9;
+}
+.mor-logo {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 419px;
+  left: 15px;
+}
+.dont-fear-him {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 425px;
+  left: 77px;
+  font-size: 14px;
+  font-weight: 600;
+  color: white;
+}
+.feid-album-2 {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 445px;
+  left: 77px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #A9A9A9;
+}
+
+/*play stop*/
+
+/*#4D3897, #1E1738*/
+
+.song-timer {
+  display: flex;
+  position: absolute;
+  z-index: 1;
+  top: 26px;
+  left: 368px;
+  flex-grow: 1;
+  background: rgb(18, 18, 18);
+  color: #fff;
+  font-family: Arial, sans-serif;
+  width: 612px;
+  height: 30px;
+  border-radius: 7px;
+  transform: translateY(20px);
+}
+
+/*!Estilos para song timer*/
+
+.me-gusta {
+  display: inline-block;
+  position: absolute;
+  z-index: 1;
+  width: 100%;
+  height: 16em;
+  background: linear-gradient(to bottom, rgb(81, 57, 153), rgb(45, 30, 85));
+  border-radius: 7px;
+}
+
+.previous-next {
+  display: inline-block;
+  position: relative;
+  margin: -1px;
+  top: 10px;
+  left: 15px;
+}
+
+.tool {
+  display: none;
+  position: absolute;
+  background-color: rgb(43, 42, 42);
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.previous-next:hover .tool {
+  display: block;
+}
+
+.explore-premium {
+  position: absolute;
+  z-index: -1;
+  top: 10px;
+  left: 20em;
+}
+.explore-premium:hover {
+  width: 160px;
+  cursor: pointer;
+}
+
+/*?tooltip*/
+
+.icon {
+  display: inline-block;
+  position: relative;
+  margin: -1px;
+  top: 10px;
+  left: 400px;
+}
+
+.tooltip {
+  display: none;
+  position: absolute;
+  background-color: rgb(43, 42, 42);
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  bottom: 125%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.icon:hover .tooltip {
+  display: block;
+}
+
+.your-likes {
+  position: absolute;
+  z-index: -1;
+  top: 90px;
+  left: 15px;
+  border-radius: 4px;
+}
+.playlist {
+  position: absolute;
+  z-index: -1;
+  top: 90px;
+  left: 175px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+.Ilike {
+  position: absolute;
+  z-index: -1;
+  top: 115px;
+  left: 174px;
+  font-size: 55px;
+  font-weight: bold;
+  color: white;
+}
+.perfil {
+  position: absolute;
+  z-index: -1;
+  top: 208px;
+  left: 175px;
+}
+.clintoncardona {
+  position: absolute;
+  z-index: -1;
+  top: 214px;
+  left: 210px;
+  font-size: 13px;
+  font-weight: bold;
+  color: white;
+}
+
+.clintoncardona:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.songs {
+  position: absolute;
+  z-index: -1;
+  top: 206px;
+  left: 318px;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.eleven-songs {
+  position: absolute;
+  z-index: -1;
+  top: 214px;
+  left: 328px;
+  font-size: 13px;
+  font-weight: 500;
+  color: white;
+}
+
+.scroll {
+  position: absolute;
+  z-index: -1;
+  top: 40px;
+  left: 596px;
+}
+
+/*!Estilos para el album*/
+
+.seccion-arriba {
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+  top: 16em;
+  width: 100%;
+  height: 250px;
+
+  background: linear-gradient(
+    to bottom,
+    rgb(30, 23, 57),
+    rgb(27, 22, 44),
+    rgb(23, 19, 32),
+    rgb(19, 19, 21)
+  );
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff; /* Color del texto, puedes ajustarlo según tus necesidades */
+}
+
+.player {
+  position: absolute;
+  z-index: -1;
+  top: 15px;
+  left: 15px;
+}
+
+.random {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: 95px;
+}
+
+.discharge {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: 145px;
+}
+.added-date {
+  position: absolute;
+  z-index: -1;
+  top: 30px;
+  left: 23em;
+}
+.qualification {
+  position: absolute;
+  z-index: -1;
+  top: 95px;
+  left: 3em;
+  color: #a9a9a9;
+  font-size: 14px;
+}
+
+.album {
+  position: absolute;
+  z-index: -1;
+  top: 95px;
+  left: 328px;
+  color: #a9a9a9;
+  font-size: 14px;
+}
+
+.qualification:hover,
+.album:hover {
+  color: white;
+}
+
+.timer {
+  position: absolute;
+  z-index: -1;
+  top: 92px;
+  left: 33em;
+}
+
+.linea {
+  position: absolute;
+  z-index: -1;
+  top: 120px;
+  left: 18px;
+  width: 94%;
+  height: 0.1px;
+  background-color: #3a3a3a; /*Color gris de la línea */
+}
+
+/*!seccion superior*/
+
+.seccion-abajo {
+  position: absolute;
+  z-index: 1;
+}
+.one {
+  position: absolute;
+  z-index: -1;
+  top: 400px;
+  left: 35px;
+}
+.if-you-are-not-img {
+  position: absolute;
+  z-index: -1;
+  top: 390px;
+  left: 70px;
+}
+.horizontal {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  margin-right: 10px; /* Ajusta el espacio entre las palabras según tus preferencias */
+  z-index: -1;
+  top: 388px;
+  left: 125px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+.iñigo-quintero {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 405px;
+  left: 31px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+
+.Yes-No-You {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  margin-right: 10px; /* Ajusta el espacio entre las palabras según tus preferencias */
+  z-index: -1;
+  top: 395px;
+  left: 142px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+
+.Delete-from-Library {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 401px;
+  left: 200px;
+}
+
+.min1 {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 400px;
+  left: 218px;
+}
+
+/*?sección inferior*/
+
+.two {
+  position: absolute;
+  z-index: -1;
+  top: 470px;
+  left: 35px;
+}
+.stay-img {
+  position: absolute;
+  z-index: -1;
+  top: 460px;
+  left: 70px;
+}
+
+.stay-justin-bieber {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  margin-right: 10px; /* Ajusta el espacio entre las palabras según tus preferencias */
+  z-index: -1;
+  top: 450px;
+  left: -210px;
+  font-size: 15px;
+  font-weight: 600;
+  color: white;
+}
+
+.AND {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 475px;
+  left: -405px;
+}
+
+.the-kid-laroi {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 444px;
+  left: 150px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+
+.LOVE {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  margin-right: 10px; /* Ajusta el espacio entre las palabras según tus preferencias */
+  z-index: -1;
+  top: 430px;
+  left: 160px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #a9a9a9;
+}
+
+.delete-from {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 435px;
+  left: 163px;
+}
+
+.min2 {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 435px;
+  left: 180px;
+}
+
+.advertising {
+  position: relative;
+  display: inline-block; /* Muestra el párrafo en línea */
+  z-index: -1;
+  top: 454px;
+  left: -1px;
+  width: 613px;
+  height: 102px;
+}
+
+/*?Un elemento encima de otro*/
+
+.song-background {
+  background: rgb(18, 18, 18);
+  border-radius: 7px;
+  position: absolute;
+  z-index: 1;
+  width: 22em;
+  height: 38rem;
+  left: 988px;
+  top: 45px;
+
+  & h2 {
+    position: absolute;
+    display: inline-block;
+    top: 5px;
+    font-size: 15px;
+    font-weight: bold;
+  }
+}
+
+.sad-boy {
+  border-radius: 10px;
+  width: 91%;
+  height: 50%;
+  margin: 60px 0px 0px -12px;
+  position: absolute;
+  z-index: -1;
+}
+
+.sad {
+  position: absolute;
+  display: inline-block;
+  top: 62%;
+  left: 15px;
+  font-size: 24px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.beats {
+  position: absolute;
+  display: inline-block;
+  top: 67%;
+  left: 17px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #a9a9a9;
+}
+
+.sad:hover,
+.beats:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.love {
+  position: absolute;
+  display: inline-block;
+  left: 15px;
+  margin-top: 15px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 255, 255);
+}
+
+.corazon {
+  position: relative;
+  display: inline-block;
+  top: 392px;
+  left: 245px;
+}
+
+.eliminar {
+  position: relative;
+  width: 24px;
+  height: 24px;
+  top: 1em;
+  left: 310px;
+}
+
+.siguiente {
+  background: rgb(35, 35, 35);
+  width: 90%;
+  height: 20%;
+  border-radius: 7px;
+  position: relative;
+  top: 27em;
+  left: 18px;
+
+  & h4 {
+    position: relative;
+    display: inline-block;
+    top: 12px;
+    left: 15px;
+    font-size: 16px;
+    font-weight: bold;
+  }
+}
+
+.fila {
+  position: relative;
+  display: inline-block;
+  top: 12px;
+  left: 25px;
+  font-size: 14px;
+  font-weight: bold;
+  color: rgb(194, 192, 192);
+}
+
+.fila:hover {
+  font-size: 15px;
+  color: white;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.following {
+  position: absolute;
+  z-index: 1;
+  background-color: rgb(35, 35, 35);
+  top: 45px;
+  left: 7px;
+  width: 95%;
+  height: 4em;
+  border-radius: 7px;
+}
+
+.logo-music {
+  position: absolute;
+  z-index: -1;
+  top: 21px;
+  left: 15px;
+}
+.traductor {
+  width: 46px;
+  height: 46px;
+  border-radius: 4px;
+  position: absolute;
+  z-index: -1;
+  top: 9px;
+  left: 40px;
+}
+.traductor-title {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 14px;
+  left: 96px;
+  font-size: 16px;
+  font-weight: 600;
+}
+.tiago-myke {
+  position: absolute;
+  display: inline-block;
+  z-index: -1;
+  top: 36px;
+  left: 97px;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.following:hover {
+  cursor: pointer;
+  background-color: rgb(57, 57, 57);
+}
+
+.sound {
+  position: relative;
+  background: #000000;
+  width: 100%;
+  height: 90px;
+  top: 41em;
+
+  & h5 {
+    position: relative;
+    display: inline-block;
+    top: -28px;
+    left: 25px;
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  & p {
+    position: relative;
+    display: inline-block;
+    top: -11px;
+    left: -35px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #d0d4ca;
+  }
+
+  & h5:hover,
+  p:hover {
+    text-decoration: underline;
+    cursor: pointer;
+  }
+}
+.hello {
+  position: relative;
+  display: inline-block;
+  width: 58px;
+  height: 58px;
+  top: 5px;
+  left: 15px;
+}
+
+.heart {
+  position: relative;
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  top: -12px;
+  left: -22px;
+}
+.play-stop {
+  position: relative;
+  display: inline-block;
+  top: 5px;
+  left: 12em;
+}
+.sonido {
+  position: relative;
+  display: inline-block;
+  top: -5px;
+  left: 23em;
+}
