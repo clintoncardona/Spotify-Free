@@ -6,11 +6,46 @@
     <title>Spotify Free</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="./img/spotify.png" />
+    <link href="https://emoji-css.afeld.me/emoji.css" rel="stylesheet" />
   </head>
   <body>
-    <div class="container">
-      <img class="further" src="./img/further.PNG" alt="mas..." />
+    <div class="contenedor-icono">
+      <img class="icono" src="./img/further.PNG" alt="Icono de tres puntos" />
+      <div class="options-box">
+        <div class="option">
+          <span class="triangulo">
+            <img src="./img/Nueva-Playlist.PNG" alt="Nueva playlist" />
+          </span>
+          Archivo
+        </div>
+        <div class="option">
+          <span class="triangulo">
+            <img src="./img/Nueva-Playlist.PNG" alt="Nueva playlist" />
+          </span>
+          Editar
+        </div>
+        <div class="option">
+          <span class="triangulo">
+            <img src="./img/Nueva-Playlist.PNG" alt="Nueva playlist" />
+          </span>
+          Ver
+        </div>
+        <div class="option">
+          <span class="triangulo">
+            <img src="./img/Nueva-Playlist.PNG" alt="Nueva playlist" />
+          </span>
+          Reproducción
+        </div>
+        <div class="option">
+          <span class="triangulo">
+            <img src="./img/Nueva-Playlist.PNG" alt="Nueva playlist" />
+          </span>
+          Ayuda
+        </div>
+      </div>
+    </div>
 
+    <div class="container">
       <div class="right-column">
         <img class="home-logo" src="./img/home.PNG" alt="Inicio" />
         <img class="search-logo" src="./img/search.PNG" alt="Buscar" />
@@ -81,21 +116,23 @@
     <div class="song-timer">
       <!-- Sección del temporizador de la canción -->
       <div class="me-gusta">
-        <div class="previous-next" id="anteriro">
+        <div class="previous-next" id="anterior">
           <img src="./img/Anterior.PNG" alt="Anterior" />
           <div class="tool">Volver</div>
         </div>
 
         <div class="previous-next" id="proximo">
           <img src="./img/Proximo.PNG" alt="Proximo" />
-          <div class="tool">🚫</div>
+          <div class="tool">
+            <i
+              class="em em-no_entry_sign"
+              aria-role="presentation"
+              aria-label="NO ENTRY SIGN"
+            ></i>
+          </div>
         </div>
 
-        <img
-          class="explore-premium"
-          src="./img/premium.PNG"
-          alt="Explorar premium"
-        />
+        <img class="explore" src="./img/premium.PNG" alt="Explorar premium" />
 
         <div class="icon" id="novedades">
           <img src="./img/notificación.PNG" alt="Novedades" />
@@ -189,9 +226,32 @@
     <div class="song-background">
       <h2 class="love">Tus me gusta</h2>
       <img class="eliminar" src="./img/x-regular-24.png" alt="X" />
-      <img class="sad-boy" src="./img/Hola_Beats.jpg" alt="Sad boy" />
-      <h1 class="sad">Sad boy</h1>
-      <h3 class="beats">Hola Beats</h3>
+
+      <div class="contenedor-imagen">
+        <img
+          class="iñigo-quintero-2"
+          src="./img/IÑIGO-QUINTERO.PNG"
+          alt="si no estás"
+        />
+        <div class="audio-container">
+          <audio
+            id="audio"
+            src="./video/iñigo quintero - Si No Estás (Letra Oficial).mp3"
+            controls
+          ></audio
+          >"
+        </div>
+      </div>
+
+      <script>
+        function playSound() {
+          var audio = document.getElementById("audio");
+          audio.play();
+        }
+      </script>
+
+      <h1 class="sad">Si No Estás</h1>
+      <h3 class="beats">iñigo quintero</h3>
       <img class="corazon" src="./img/eliminar-mas.PNG" alt="Corazon verde" />
       <!--<img class="mas" src="./img/mas.PNG" alt="Tres puntitos" />-->
 
@@ -217,7 +277,7 @@
         alt="Corazon verde"
       />
       <img class="play-stop" src="./img/play-stop.PNG" alt="play-stop" />
-      <img class="sonido" src="./img/sonido.PNG" alt="play-mute" />
+      <!--<img class="sonido" src="./img/sonido.PNG" alt="play-mute" />-->
     </div>
   </body>
 </html>
